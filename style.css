@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -14,40 +18,77 @@
 
 /*container-body*/
 
-/*header*/
-.dark {
+/*bg*/
+
+.bts-bg-green {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.bts-bg-dark {
     background-color: #2c3e50;
+    color: #fff;
 }
 
-.btn {
-    font-size: 2rem;
+.bts-bg-light-dark {
+    background-color: #3a546d;
+    color: #fff;
 }
 
-.bi-list {
-    font-size: 2rem;
+/*content*/
+
+.bts-avatar {
+    max-width: 250px;
 }
 
-/*/header*/
+.bts-star-wing {
+    display: inline-block;
+    height: 2px;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 2px;
+}
 
-/*main*/
+.bts-star {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-.bi-star-fill::after,
-.bi-star-fill::before {
+
+.bts-star::before,
+.bts-star::after {
     content: '';
     display: inline-block;
     height: 2px;
     width: 25%;
-    border: 1px solid #fff;
+    border: 1px solid white;
     border-radius: 2px;
     vertical-align: middle;
 }
 
-.bg-9c {
-    background-color: #1abc9c;
+.bts-star.bts-black-border::before,
+.bts-star.bts-black-border::after {
+    border: 1px solid black;
 }
 
-.bk-bg-secondary {
-    background-color: #1abc9c;
+.btn-outline-9c {
+    color: #fff;
 }
 
-/*/main*/
+.bi-download{
+    
+}
+
+/*footer*/
+
+.bi-social {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+#ft-color-link {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+/*/footer*/
