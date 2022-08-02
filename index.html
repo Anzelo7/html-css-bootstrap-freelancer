@@ -14,18 +14,18 @@
 <body>
     <section class="container-body">
         <!-- header -->
-        <header class="bg-dark">
+        <header class="">
             <section class="container">
-                <div class="row justify-content-space-between align-items-center">
-                    <div class="col">
-                        <h1 class="fs-3 fw-bold text-white">START BOOTSTRAP</h1>
-                    </div>
-                    <div class="col text-end">
-                        <button class="btn btn-secondary py-0 px-0.5 fs-1 mt-4 mb-4" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-list"></i>
-                        </button>
-                    </div>
+                <div class="sb-bg-dark">
+                    <nav class="navbar dark fixed-top">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
                 </div>
             </section>
         </header>
@@ -33,58 +33,59 @@
 
         <!-- main -->
         <main>
-            <section class="container text-center">
+            <section class="container mt-5 text-center">
                 <div class="row text-center bg-9c">
-                    <div class="col12">
-                        <div class="col12">
+                    <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6">
                             <img class="w-100" src="img/avatar.svg" alt="">
                         </div>
                         <h1 class="fw-bold">START BOOTSTRAP</h1>
                         <div class="row">
-                            <div class="col4 line w-25 h-10 bg-dark"></div>
+                            <div class="col-4 line w-25 h-10 bg-dark"></div>
                             <i class="bi bi-star-fill"></i>
-                            <div class="col4 line"></div>
+                            <div class="col-4 line"></div>
                         </div>
                         <p class="fw-bold">GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</p>
                     </div>
                 </div>
-                <div class="row text-center bg-9c">
-                    <div class="col12">
+                <div class="row ">
+                    <div class="col-12 justify-content-space-around text-center bg-9c gy-3">
                         <h2 class="fw-bold">PORTFOLIO</h2>
                         <div class="row">
-                            <div class="col4 line w-25 h-10 bg-dark"></div>
+
                             <i class="bi bi-star-fill"></i>
-                            <div class="col4 line"></div>
+
                         </div>
-                        <div class="col12  pt-2 pb-2">
-                            <img class="w-100 rounded" src="img/cabin.png" alt="">
+                        <div class="col-md-3 pt-2 pb-2">
+                            <img class="img-fluid rounded" src="img/cabin.png" alt="">
                         </div>
-                        <div class="col12  pt-2 pb-2">
-                            <img class="w-100 rounded" src="img/cake.png" alt="">
+                        <div class="col-md-3 pt-2 pb-2">
+                            <img class="img-fluid rounded" src="img/cake.png" alt="">
                         </div>
-                        <div class="col12  pt-2 pb-2">
-                            <img class="w-100 rounded" src="img/circus.png" alt="">
+                        <div class="col-md-3 pt-2 pb-2">
+                            <img class="img-fluid rounded" src="img/circus.png" alt="">
                         </div>
-                        <div class="col12  pt-2 pb-2">
-                            <img class="w-100 rounded" src="img/game.png" alt="">
+                        <div class="col-md-3 pt-2 pb-2">
+                            <img class="img-fluid rounded" src="img/game.png" alt="">
                         </div>
-                        <div class="col12  pt-2 pb-2">
-                            <img class="w-100 rounded" src="img/safe.png" alt="">
+                        <div class="col-md-3 pt-2 pb-2">
+                            <img class="img-fluid rounded" src="img/safe.png" alt="">
                         </div>
-                        <div class="col12  pt-2 pb-2">
-                            <img class="w-100 rounded" src="img/submarine.png" alt="">
+                        <div class="col-md-3 pt-2 pb-2">
+                            <img class="img-fluid rounded" src="img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
+
             </section>
 
             <section class="container text-center">
                 <div class="row bg-success text-white py-3 px-3">
                     <h1>ABOUT</h1>
                     <div class="row">
-                        <div class="col4 line w-25 h-10 bg-dark"></div>
+                        <div class="col-4 line w-25 h-10 bg-dark"></div>
                         <i class="bi bi-star-fill"></i>
-                        <div class="col4 line"></div>
+                        <div class="col-4 line"></div>
                     </div>
                     <p class="text-start fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente non
                         cum
@@ -104,9 +105,9 @@
                 <div class="row bg-info text-white py-3 px-3">
                     <h1>CONTACT ME</h1>
                     <div class="row">
-                        <div class="col4 line w-25 h-10 bg-dark"></div>
+                        <div class="col-4 line w-25 h-10 bg-dark"></div>
                         <i class="bi bi-star-fill"></i>
-                        <div class="col4 line"></div>
+                        <div class="col-4 line"></div>
                         <p>Name</p>
                         <hr>
                         <p>Email Address</p>
@@ -124,7 +125,7 @@
                 </div>
             </section>
             <div class="container text-center">
-                <div class="row bg-secondary fw-bold text-white">
+                <div class="row bk-bg-secondary fw-bold text-white">
                     <div>
                         <p>LOCATION</p>
                         <p>2215 John Daniel Drive Clark, MO 54243</p>
